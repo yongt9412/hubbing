@@ -14,12 +14,15 @@
 }
 
 header {
-	color: #fff;
-	padding: 20px 0;
-	position: absolute;
+	background-color: #fff;
+	color: #363636;
+	padding: 15px 0;
+	position: fixed;
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 2;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
 
 	a {
 		color: #fff;
