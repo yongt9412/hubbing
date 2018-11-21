@@ -1,24 +1,24 @@
-title: Urban Template
-url: "https://teal-worm.cloudvent.net"
+title: Hubbing.net
+url: "https://hubbing.github.io"
 baseurl:
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Default description in social shares for the jekyll-seo-tag gem
-description: Jekyll template with example content for a web agency.
+description: Hubbing.net | Education for everybody spreading experiential learning.
 
 # Author details for the jekyll-seo-tag gem
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: hubbingnet # twitter username without the @ symbol
 
 # Social details for the jekyll-seo-tag gem
 social:
-  name: Urban Template
+  name: Hubbing.net
   links:
-    - https://github.com/CloudCannon/urban-jekyll-template
+    - https://github.com/hubbing/hubbing.github
 
 timezone: Etc/UTC
 
@@ -91,11 +91,7 @@ defaults:
 
 social_icons:
   - Facebook
-  - Google Plus
   - Instagram
   - LinkedIn
-  - Pinterest
-  - Tumblr
   - Twitter
-  - YouTube
-  - RSS
+
