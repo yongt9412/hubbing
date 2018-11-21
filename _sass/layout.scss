@@ -59,20 +59,6 @@ section {
 	background: #fff;
 	margin-top: -2px;
 
-	&.diagonal {
-		-webkit-transform: skewY(-$section-rotation);
-		-moz-transform: skewY(-$section-rotation);
-		-ms-transform: skewY(-$section-rotation);
-		transform: skewY(-$section-rotation);
-
-		> div {
-			-webkit-transform: skewY($section-rotation);
-			-moz-transform: skewY($section-rotation);
-			-ms-transform: skewY($section-rotation);
-			transform: skewY($section-rotation);
-		}
-	}
-
 	&.hero {
 		color: #ffffff;
 		background: $brand-color;
