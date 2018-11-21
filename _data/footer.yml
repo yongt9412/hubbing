@@ -14,10 +14,10 @@
       link: https://www.facebook.com/hubbing.net/
       social_icon: Facebook
       new_window: true
-#    - name: Twitter
-#      link:
-#      social_icon: Twitter
-#      new_window: true
+    - name: Twitter
+      link: https://twitter.com/hubbingnet
+      social_icon: Twitter
+      new_window: true
 #    - name: Google+
 #      link:
 #      social_icon: Google Plus
