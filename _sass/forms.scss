@@ -1,21 +1,6 @@
-input[type=submit] {
-	color: #fff;
-	text-decoration: none;
-	padding: 20px 30px;
-	border-radius: 3px;
-	transition: 0.2s ease-in-out;
-	border: 1px solid $brand-color;
-	background: $brand-color;
-	cursor: pointer;
-}
-
-input[type=submit]:hover {
-	border: 1px solid $brand-color;
-	background: $secondary-brand-color;
-}
-
-input[type=submit]:active {
-	transform: translateY(1px);
+input {
+	font-size: 1.38rem;
+	font-weight: 300;
 }
 
 textarea,
