@@ -12,13 +12,13 @@ description: Education for everybody by spreading experiential learning.
 author:
   name:
   email:
-  twitter: hubbingnet # twitter username without the @ symbol
+  linkedin: # linkedin username
 
 # Social details for the jekyll-seo-tag gem
 social:
   name: Hubbing.net
   links:
-    - https://github.com/hubbing/hubbing.github
+  - https://github.com/CloudCannon/urban-jekyll-template
 
 timezone: Etc/UTC
 
