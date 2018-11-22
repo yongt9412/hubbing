@@ -2,10 +2,10 @@
   links:
     - name: Home
       link: /
-    - name: Blog
-      link: /blog/
     - name: About
       link: /about/
+    - name: Blog
+      link: /blog/
     - name: Contact
       link: /contact/
 - title: Social
@@ -18,10 +18,10 @@
       link: https://twitter.com/hubbingnet
       social_icon: Twitter
       new_window: true
-#    - name: Google+
-#      link:
-#      social_icon: Google Plus
-#      new_window: true
+    - name: Instagram
+      link: https://www.instagram.com/hubbingnet/
+      social_icon: Instagram
+      new_window: true
     - name: LinkedIn
       link: https://www.linkedin.com/company/hubbingnet/
       social_icon: LinkedIn

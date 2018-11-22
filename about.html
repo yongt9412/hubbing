@@ -1,23 +1,8 @@
 ---
 title: About
-heading: Our team
-subtitle: Meet our efficient and qualified team.
+heading: About us
+subtitle: Know more about Hubbing.net.
 ---
-
-<section class="diagonal patterned">
-	<div class="container">
-	    <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
-		<ul class="image-grid">
-			{% for member in site.staff_members %}
-				<li>{% include staff-member.html member=member %}</li>
-			{% endfor %}
-		</ul>
-	</div>
-</section>
-
-
-
-
 
 <section class="alternate">
     <div class="container">
@@ -85,5 +70,16 @@ subtitle: Meet our efficient and qualified team.
                 The founders of Hubbing were part of the 2018 cohort. Find a documentary about the program <a href="http://ysiglobal.com/documentary" target="_blank">here</a>.
             </p>
         </div>
+    </div>
+</section>
+
+<section class="diagonal">
+    <div class="container">
+        <p class="editor-link" style="text-align: center;"><a href="cloudcannon:collections/_staff_members/" class="btn"><strong>&#9998;</strong>Manage Staff members</a></p>
+        <ul class="image-grid">
+            {% for member in site.staff_members %}
+            <li>{% include staff-member.html member=member %}</li>
+            {% endfor %}
+        </ul>
     </div>
 </section>
