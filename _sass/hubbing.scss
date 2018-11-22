@@ -21,6 +21,19 @@
 	background: linear-gradient(to right, $secondary-brand-color, $brand-color);
 }
 
+.dark-container {
+	background: $html-background-color;
+
+	h2 {
+		color: $secondary-brand-color;
+	}
+
+	&,
+	p {
+		color: white;
+	}
+}
+
 .main-cover {
 	background: white;
 	text-align: center;
