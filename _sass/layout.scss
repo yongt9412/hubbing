@@ -41,6 +41,11 @@ header {
 		img {
 			height: 40px;
 			width: auto;
+			vertical-align: middle;
+
+			@media #{$mid-point} {
+				height: 30px;
+			}
 		}
 	}
 }
