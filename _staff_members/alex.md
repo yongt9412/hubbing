@@ -1,6 +1,6 @@
 ---
 name: Alexander
-position: Designer
+position: CEO
 image_path: /images/team/al-profile.png
 linkedin: alexander-schilling/
 ---

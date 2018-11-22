@@ -85,7 +85,7 @@ nav {
 	}
 
 	a:hover {
-		color: #fff;
+		color: $middle-gradient-color;
 
 		@media #{$mid-point} {
 			border-bottom: 2px solid rgba(255, 255, 255, 0.6);
