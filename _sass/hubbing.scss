@@ -24,6 +24,14 @@
 	height: 75px;
 }
 
+.text-center {
+	text-align: center;
+}
+
+.text-weight-normal {
+	font-weight: normal;
+}
+
 .text-blue {
 	color: $brand-color;
 }
@@ -32,6 +40,10 @@
 	color: $secondary-brand-color;
 }
 
-.text-normal {
+.text-dark {
 	color: $dark-text-color;
+}
+
+.text-light {
+	color: white;
 }
