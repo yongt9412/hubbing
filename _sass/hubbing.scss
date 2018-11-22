@@ -47,3 +47,19 @@
 .text-light {
 	color: white;
 }
+
+// Form elements.
+.text-input-light {
+	border-radius: 50px;
+	width: 100%;
+}
+
+.button-primary-inverted {
+	background: $brand-color;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, $secondary-brand-color, $brand-color);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, $secondary-brand-color, $brand-color); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	color: white;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
+	border-radius: 50px;
+	border: 2px white;
+}
