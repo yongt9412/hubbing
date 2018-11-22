@@ -39,13 +39,9 @@ header {
 		font-size: 1.7em;
 
 		img {
-			height: 30px;
-			width: auto;
+			max-width: 100%;
+			height: auto;
 			vertical-align: middle;
-
-			@media #{$mid-point} {
-				height: 40px;
-			}
 		}
 	}
 }
