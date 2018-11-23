@@ -9,6 +9,9 @@ $html-background-color: #434343;
 $secondary-brand-color: #23e7a0;
 $middle-gradient-color: mix($brand-color, $secondary-brand-color, 95%);
 $dark-text-color: #434343;
+$font-family-base: 'dinweblight', sans-serif;
+$font-family: 'dinweblight';
+@font-face { font-family: 'dinweblight'; src: url('../_fonts/DINWeb-Light.woff') format('woff');}
 
 // Breakpoints
 $tablet: "(min-width: 450px)";
