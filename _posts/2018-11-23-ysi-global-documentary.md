@@ -1,5 +1,5 @@
 ---
-title: The YSI Global Documentary is here
+title: The YSI Global Documentary is here!
 categories:
 author_staff_member: john
 show_comments: true
@@ -13,4 +13,4 @@ The documentary was released yesterday and contains an overview of the process o
 
 Watch the documentary below and leave a message of support. Let’s build a sustainable world together.
 
-{% include youtubePlayer.html id=page.pkLg-LbCo0E %}
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pkLg-LbCo0E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
