@@ -20,14 +20,23 @@ layout: default
 	</div>
 </section>
 
-{% if page.about %}
-	<section class="dark-container">
-		<div class="container">
+
+<section class="dark-container">
+	<div class="container">
+		{% if page.position %}
+			<h2 class="editable">Position</h2>
+			<p>{{ page.position }}</p>
+		{% endif %}
+		{% if page.about %}
 			<h2 class="editable">About</h2>
 			<p>{{ page.about }}</p>
-		</div>
-	</section>
-{% endif %}
+		{% endif %}
+		{% if page.quote %}
+			<h2 class="editable">Favorite quote</h2>
+			<p>{{ page.quote }}</p>
+		{% endif %}
+	</div>
+</section>
 
 {% if content %}
 	<section class="diagonal">
