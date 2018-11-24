@@ -9,6 +9,7 @@ html, body {
 
 body {
 	font-family: $font-family-base;
+	font-size: 1rem;
 }
 
 a {
@@ -52,7 +53,6 @@ p, address, ul, ol, pre {
 }
 
 p, address, ul, ol {
-	font-size: 1.38rem;
 	color: #666;
 	font-weight: 300;
 	line-height: 1.6;
