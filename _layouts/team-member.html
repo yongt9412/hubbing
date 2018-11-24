@@ -23,15 +23,18 @@ layout: default
 {% if page.about %}
 	<section class="dark-container">
 		<div class="container">
+			<h2 class="editable">About</h2>
 			<p>{{ page.about }}</p>
 		</div>
 	</section>
 {% endif %}
 
-<section class="diagonal">
-	<div class="container">
-		<div>
-			{{ content }}
+{% if content %}
+	<section class="diagonal">
+		<div class="container">
+			<div>
+				{{ content }}
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
+{% endif %}
