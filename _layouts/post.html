@@ -19,7 +19,7 @@ layout: page
 				{% assign author_id = page.author_team_member | prepend: "/team/" | append: "/" %}
 				{% assign author = site.team | where: "url", author_id | first %}
 
-				<li>{% include team-member.html member=author %}</li>
+				<li>{% include team-member-thumbnail.html member=author %}</li>
 			</ul>
 		</div>
 	</section>
