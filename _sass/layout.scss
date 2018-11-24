@@ -117,10 +117,7 @@ section {
 	}
 
 	&:active {
-		opacity: 1;
-		background: rgba(255, 255, 255, 0.1);
-		color: #fff;
-		transform: translateY(1px);
+		box-shadow: unset;
 	}
 }
 
