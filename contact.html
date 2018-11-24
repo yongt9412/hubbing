@@ -9,34 +9,33 @@ map:
   zoom: 13
 ---
 
-<!--<section class="diagonal">
+<section class="diagonal">
 	<div class="container">
-		<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-			<input type="hidden" name="_to" value="office@hubbing.net" />
-			<input type="text" name="_gotcha" style="display: none;" />
-
+		<form action="https://formspree.io/contact@hubbing.net" method="POST" class="contact-form">
 			<div class="halves">
 				<div>
-					<label for="name">First Name</label>
+					<label for="first-name">First Name</label>
 					<input type="text" name="first-name" id="first-name" placeholder="John" />
 				</div>
 
 				<div>
-					<label for="name">Last Name</label>
+					<label for="last-name">Last Name</label>
 					<input type="text" name="last-name" id="last-name" placeholder="Doe" />
 				</div>
 			</div>
 
 			<label for="email">Email Address</label>
-			<input type="email" name="email" id="email" placeholder="john@example.com" required />
+			<input type="email" name="_replyto" id="email" placeholder="john@example.com" required />
 
 			<label for="message">Message</label>
 			<textarea name="message" id="message" placeholder="Hi There..."></textarea>
-
-			<input type="submit" value="Send Message" />
+			<div style="position: absolute; left: -5000px;" aria-hidden="true">
+				<input type="text" name="_gotcha" tabindex="-1" value="">
+			</div>
+			<input type="submit" value="Send message" />
 		</form>
 	</div>
-</section>-->
+</section>
 
 <!--<section class="diagonal map">
 	<div id="gmap_canvas"></div>
