@@ -13,3 +13,12 @@ layout: default
 		{% endif %}
 	</div>
 </section>
+
+<section class="diagonal">
+	<div class="container">
+		<p><img src="{% include relative-src.html src=page.image_path %}"></p>
+		<div>
+			{{ content }}
+		</div>
+	</div>
+</section>
