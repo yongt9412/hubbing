@@ -101,19 +101,20 @@ section {
 
 .button {
 	padding: 13px 38px;
-	border-radius: 3px;
+	border-radius: 50px;
+	border: 0;
 	display: inline-block;
-	color: $brand-color;
 	text-decoration: none;
 	cursor: pointer;
 	margin: 20px 0 0 0;
-	border: 1px solid #fff;
-	background: #fff;
 	text-decoration: none !important;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
 
 	&:hover {
-		background: rgba(255, 255, 255, 0.3);
-		color: #fff;
+		box-shadow: 0 8px 8px 0 rgba(0,0,0,0.12), 0 2px 4px 0 rgba(0,0,0,0.08);
 	}
 
 	&:active {
