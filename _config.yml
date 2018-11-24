@@ -23,7 +23,7 @@ social:
 timezone: Etc/UTC
 
 collections:
-  team_members:
+  team:
     output: true
   clients:
     output: true
@@ -68,8 +68,8 @@ defaults:
           width: 2000
           height: 2000
   - scope:
-      path: "team/"
-      type: "team_members"
+      path: ""
+      type: "team"
     values:
       layout: "team-member"
       _options:
