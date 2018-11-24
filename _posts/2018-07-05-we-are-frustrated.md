@@ -1,7 +1,7 @@
 ---
 title: We are frustrated
 categories:
-author_staff_member: alex
+author_team_member: alex
 show_comments: true
 ---
 

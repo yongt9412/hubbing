@@ -1,7 +1,7 @@
 ---
 title: Happy Birthday Nelson Mandela
 categories:
-author_staff_member: alex
+author_team_member: alex
 show_comments: true
 ---
 ![post_cover]({{site.baseurl}}/images/posts/mandela.jpg)

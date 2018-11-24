@@ -4,6 +4,8 @@
       link: /
     - name: About
       link: /about/
+    - name: Team
+      link: /team/
     - name: Blog
       link: /blog/
     - name: Contact

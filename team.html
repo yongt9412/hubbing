@@ -1,0 +1,25 @@
+---
+title: Team
+heading: Hubbing's team
+subtitle: Meet the people behind Hubbing.
+---
+
+<section class="diagonal patterned">
+	<div class="container">
+		<ul class="image-grid">
+			{% for team_member in site.team_members %}
+				<li>
+					<a href="{{ site.baseurl }}{{ team_member.url }}">
+						<img src="{% include relative-src.html src=team_member.image_path %}" alt="{{ person.name }}">
+						<div class="details">
+							<div class="name">{{ team_member.name }}</div>
+							<div class="position">{{ team_member.position }}</div>
+						</div>
+					</a>
+				</li>
+			{% endfor %}
+			<li class="filler"></li>
+			<li class="filler"></li>
+		</ul>
+	</div>
+</section>

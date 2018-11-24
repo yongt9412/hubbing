@@ -1,7 +1,7 @@
 ---
 title: The YSI Global Documentary is here!
 categories:
-author_staff_member: john
+author_team_member: john
 show_comments: true
 ---
 

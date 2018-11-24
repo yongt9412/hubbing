@@ -1,7 +1,7 @@
 ---
 title:
 categories:
-author_staff_member:
+author_team_member:
 show_comments: true
 date:
 ---
