@@ -27,10 +27,19 @@
 .main-cover {
 	background: white;
 	text-align: center;
+	padding: 0;
 
 	h2 {
 		font-size: 3.5rem;
 	}
+}
+
+.full-width {
+	width: 100%;
+}
+
+.white-background {
+	background: white;
 }
 
 .navfix {
