@@ -153,7 +153,6 @@ section {
 		margin: 20px;
 		border-radius: 5px;
 		text-align: left;
-		border: 1px solid $brand-color;
 		line-height: 0;
 		box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.10), 0 1px 20px 0 rgba(0, 0, 0, 0.10);
 
@@ -203,7 +202,7 @@ section {
 		bottom: 0;
 		left: 0;
 		right: 0;
-		background: rgba(0, 0, 0, 0.5);
+		background: rgba(255, 255, 255, 0.8);
 		padding: 20px;
 	}
 
